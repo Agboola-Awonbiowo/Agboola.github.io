@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: #f4f4f4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dom{
+    min-height: calc(100vh - 50px - 36px);
+    overflow: hidden;
+}
+
+header{
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.calender_header{
+    background-color: darkgreen;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.banner{
+    background-image: url("./images/world.jpg");
+    height: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+/* banner for sermon */
+
+.banner_two{
+    background-image: url("./images/cl.jpg");
+    height: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* banner for livestream */
+
+.banner_three{
+    background-image: url("./images/live.jpg");
+    height: 150px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.calender_banner{
+    background-color: darkgreen;
+    height: 100px;
+}
+
+.social_area{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.social{
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 120px;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: small;
+}
+
+li{
+    padding-bottom: 2px;
+    color: dimgrey;
+}
+
+.service{
+   padding: 10px;
+}
+
+.services{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.fa-bars{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa-share-square{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cont{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+footer{ 
+    margin-top: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav li{
+    text-align: center;
+}
+
+.fa-home{
+    font-size: 18px;
+}
+
+.fa-tv{
+    font-size: 18px;
+}
+
+.fa-play-circle{
+    font-size: 18px;
+}
+
+.fa-bible{
+    font-size: 18px;
+}
+
+.fa-calendar-week{
+    font-size: 18px;
+}
+
+.sermon_card{
+    height: 130px;
+    width: 130px;
+    background-image: url("./images/preach.jpg");
+    margin-bottom: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sermon_area{
+    width: 83%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 20px; */
+}
+
+/* .live_social{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+} */
+
+.youtube_facebook{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px lightgray solid;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa-chevron-right{
+    color: lightgray;
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+}
+
+.bible{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.calender{
+    height: 100px;
+    width: 80%;
+    background-color: lightgreen;
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.calender_ad{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
